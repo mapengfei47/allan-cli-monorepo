@@ -1,0 +1,23 @@
+{
+  "name": "@allan-cli/cli",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@allan-cli/create": "workspace:^"
+  },
+  "bin": {
+    "allan-cli": "./dist/index.js"
+  }
+}
